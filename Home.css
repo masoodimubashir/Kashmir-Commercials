@@ -1,0 +1,357 @@
+body {
+    background: #ffffff;
+    font-size: 22px;
+    line-height: 32px;
+    word-wrap: break-word !important;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* .header {
+    background-color: lightslategray;
+    border: 1px solid red;
+} */
+
+.Mid {
+    display: inline-block;
+    width: 56%;
+    top: 2%;
+    margin-top: 0.5%;
+    margin-left: 22%;
+    text-align: center;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 5px 0px;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 3px 30px;
+    font-size: 20px;
+    border: 1px solid grey;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    font-style: italic;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+.flexContainer {
+    display: flex;
+    margin: 10px 4px 0px 4px;
+    background-color: #fcfcfc;
+    border: 2px solid rgb(197, 18, 18);
+    box-shadow: 0px 0px 20px 0px rgb(78, 39, 39);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Home Heading*/
+.heading {
+    margin-top: 0.2%;
+    font-size: 200%;
+    text-align: center;
+}
+
+.leftdv {
+    position: absolute;
+    margin-left: 0.3%;
+    width: 19%;
+    height: 20%;
+    margin-top: 0.3%;
+    margin-bottom: 0.3%;
+}
+
+.responsive {
+    width: 100%;
+    height: 116%;
+    border-radius: 80px;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    width: 22%;
+    text-align: center;
+    right: 0%;
+    top: 2%;
+    bottom: 100%;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.btn {
+    margin: 20px 9px;
+    background-color: black;
+    color: white;
+    padding: 9px;
+    border-radius: 6px;
+    margin-top: 15%;
+
+}
+
+.btn:hover {
+    text-decoration: underline;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+.btn:hover {
+    text-decoration: underline;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+.mainBox {
+    display: flex;
+}
+
+.Box {
+    background: white;
+    overflow: hidden;
+    box-shadow: 0px 1px 3px 1px rgba(50, 50, 50, 0.35);
+    height: 500px;
+    margin-top: .3%;
+    border: 1px solid rgba(100, 100, 100, 100.20);
+    margin-bottom: 1%;
+    margin-left: 0.1%;
+    margin-right: .5px;
+}
+
+.select1 {
+    position: absolute;
+    border-radius: 2px;
+    color: black;
+}
+
+.search-box {
+    position: relative;
+    margin-top: 1%;
+    margin-left: 20%;
+    height: 3%;
+    margin-right: 65%;
+    border-radius: 15px;
+    background: grey;
+    z-index: 1;
+}
+
+.search-box>.search-text {
+    width: 120%;
+    padding: 2%px 7%;
+    border: none;
+    background: white;
+    border-radius: 8px;
+    color: black;
+}
+
+/* product pages navigation menu*/
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    margin-top: 150px;
+    font-family: 'Russo One', sans-serif;
+}
+
+h1 span {
+    color: #FF4649;
+}
+
+#container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav {
+    margin: 5px 4px;
+    padding: 9px;
+    color: black;
+    background-color: #fcfcfc;
+    border: 2px solid rgb(197, 18, 18);
+    box-shadow: 0px 0px 20px 0px rgb(78, 39, 39);
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+    color: black;
+    background-color: #fcfcfc;
+    /* border: 2px solid rgb(197, 18, 18);
+    box-shadow: 0px 0px 20px 0px rgb(78, 39, 39); */
+}
+
+nav a {
+    display: block;
+    padding: 0 10px;
+    color: black;
+    font-size: 17px;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(129, 121, 121);
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+    /* background-color: #fcfcfc;
+    border: 2px solid rgb(197, 18, 18);
+    box-shadow: 0px 0px 20px 0px rgb(78, 39, 39); 	 */
+}
+
+nav ul li:hover>ul {
+    display: inherit;
+
+
+}
+
+nav ul ul li {
+    width: 230px;
+    float: none;
+    display: list-item;
+    background-color: #fcfcfc;
+    border: 2px solid rgb(197, 18, 18);
+    box-shadow: 0px 0px 20px 0px rgb(78, 39, 39);
+}
+
+nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 230px;
+    background-color: #fcfcfc;
+    border: 2px solid rgb(197, 18, 18);
+    box-shadow: 0px 0px 20px 0px rgb(78, 39, 39);
+}
+
+nav ul ul li {
+    background-color: #fcfcfc;
+    border: 2px solid rgb(197, 18, 18);
+    box-shadow: 0px 0px 20px 0px rgb(78, 39, 39);
+}
+
+li>a:after {
+    content: ' ▼';
+}
+
+li>a:only-child:after {
+    content: '';
+}
+/* Top offer slides */
+/* #topofferpics{
+    background-color: #fcfcfc;
+    padding-top: 500px;
+    border: 2px solid rgb(197, 18, 18);
+    box-shadow: 0px 0px 20px 0px rgb(78, 39, 39);
+} */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1300px;
+  position: relative;
+  margin: auto;
+  z-index: -1;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  background-color: white;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(16, 7, 7);
+  font-weight: bold;
+  font-size: 18px;
+  /* transition: 0.6s ease; */
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
