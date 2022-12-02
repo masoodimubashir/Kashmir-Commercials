@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"> 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="Header.css" />
+    <link rel="stylesheet" href="Feedback.css">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <header class="header">
+        <div class="leftdv">
+            <img src="Logo.jpg" alt="Logo" class="responsive" width="30px">
+        </div>
+        <div class="Mid">
+            <h1 class="heading">Kashmir Commercials</h1>
+
+            <ul class="navbar">
+                <li><a class="active" href="Home.html">Home</a></li>
+                <li><a href="signUp.html">Sign Up</a></li>
+                <li><a href="login.html">Sign In</a></li>
+                <li><a href="AdminPanel.html">Admin</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <a href="Feedback.html"><Button class="btn">Feedback</Button></a>
+            <Button class="btn">About</Button>
+            <a
+                href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSBpDnflmGfnVsMTVWzdhLSdlxqXqZVLjMgMbRbztkPFjbKCBwFWTztqVrnnrkTTNkmSHxWP"><Button
+                    class="btn">Contact Us</Button></a>
+        </div>
+    </header>
+    
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="name">Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+      
+          <label for="email">Email</label>
+          <input type="email" id="lname" name="lastname" placeholder="Your email.." required>
+      
+          <label for="place">Place</label>
+          <select id="Place" name="Place" required>
+            <option value="Choose Place">Choose Place</option>
+            <option value="Anantnag">Anantnag</option>
+            <option value="Bandipora">Bandipora</option>
+            <option value="Baramulla">Baramulla</option>
+            <option value="Budgam">Budgam</option>
+            <option value="Ganderbal">Ganderbal</option>
+            <option value="Kulgam">Kulgam</option>
+            <option value="Kupwara">Kupwara</option>
+            <option value="Pulwama">Pulwama</option>
+            <option value="Srinagar">Srinagar</option>
+            <option value="Shopian">Shopian</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+      
+          <input type="submit" value="Submit">
+          <input type="Reset" value="Reset All">     
+        </form>
+      </div>
+<div class="Footer">
+    <p class="desc">Copyright &#169 2022 KASHMIR COMMERCIAL |<br> Disclaimer |
+         KC Facebook Disclaimer <br><br> Developed & Maintained by Dr Umar Farooq & Himayat Habib</p>
+</div>
+</body>
+</html>

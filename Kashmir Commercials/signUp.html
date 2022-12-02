@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>SignUp</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="Header.css" >
+	<link rel="stylesheet" type="text/css" href="signup.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="leftdv">
+			<img src="Logo.jpg" alt="Logo" class="responsive" width="30px">
+		</div>
+		<div class="Mid">
+			<h1 class="heading">Kashmir Commercials</h1>
+
+			<ul class="navbar">
+				<li><a class="active" href="Home.html">Home</a></li>
+				<li><a href="signUp.html">Sign Up</a></li>
+				<li><a href="login.html">Sign In</a></li>
+				<li><a href="AdminPanel.html">Admin</a></li>
+				<li><a href="submitAdd.html">Submit Ad</a></li>
+			</ul>
+		</div>
+		<div class="right">
+			<a href="Feedback.html"><Button class="btn">Feedback</Button></a>
+			<Button class="btn">About</Button>
+			<a
+				href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSBpDnflmGfnVsMTVWzdhLSdlxqXqZVLjMgMbRbztkPFjbKCBwFWTztqVrnnrkTTNkmSHxWP"><Button
+					class="btn">Contact Us</Button></a>
+		</div>
+	</header>
+	<div class <div id="div1">
+		<h2>Registration Page</h2>
+		<label id="textLabel" for="textName"></label>
+		<input class="input" type="text" id="textName" placeholder="Name.." />
+		<label for="textAddress"></label>
+		<input class="input" type="text" id="textAddress" placeholder="Address" />
+		<label for="phone"></label>
+		<input class="input" type="text" id="phone" placeholder="Phone Number" required maxlength="10" />
+		<label for="textEmail"></label>
+		<input class="input" type="email" id="textEmail" placeholder="Email" />
+		<label for="pas"></label>
+		<input class="input" type="password" id="pas" placeholder="Password"/>
+		<div>
+			<label for="showPass">Show Password</label>
+			<input class="" type="checkbox" id="showPass" onclick="showpassword()"> 
+		  </div>
+		<label for="cPass"></label>
+		<input class="input" type="password" id="pas1" placeholder="Confirm Passord" />
+		<div>
+			<label for="showPass">Show Password</label>
+			<input class="" type="checkbox" id="showPass1" onclick="showpassword1()"> 
+		  </div>
+		<div id="div2">
+			<input type="button" class="btn" id="btnSubmit" value="Submit" />
+			<input type="button" class="btn" id="btnReset" value="Reset" />
+		</div>
+
+		<a href="login.html">Aready Have An Account</a>
+		<script src="signup.js"></script>
+	</div>
+	<div class="Footer">
+		<p class="desc">Copyright &#169 2022 KASHMIR COMMERCIAL |<br> Disclaimer |
+			KC Facebook Disclaimer <br><br> Developed & Maintained by Dr Umar Farooq & Himayat Habib</p>
+	</div>
+</body>
+
+</html>
