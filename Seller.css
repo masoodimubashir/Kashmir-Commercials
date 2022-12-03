@@ -15,8 +15,6 @@ body {
 .nav {
 
     display: flex;
-
-    /* flex-wrap: wrap; */
     background-color: #fcfcfc;
     border: 2px solid rgb(197, 18, 18);
     box-shadow: 0px 0px 20px 0px rgb(78, 39, 39);
@@ -43,16 +41,21 @@ img {
 
 .nav ul {
     display: flex;
-    gap: 0px;
+    align-items: center;
+    justify-content: space-between;
+    width: max-content;
+    height: 3rem;
     list-style: none;
     text-decoration: none;
+    
 
 }
 
 nav a {
-    border: 1px solid rgb(49, 27, 27);
+
     border-radius: 5px;
-    padding: 5px;
+    padding: .4rem;
+    margin: .2rem;
     text-decoration: none;
     background-color: #fcfcfc;
     border: 2px solid rgb(197, 18, 18);
@@ -99,13 +102,13 @@ h3 {
     background-color: #fcfcfc;
     border: 2px solid rgb(197, 18, 18);
     box-shadow: 0px 0px 20px 0px rgb(78, 39, 39);
-     align-items: center;
+    align-items: center;
     z-index: 1000;
-    grid-area: searchdiv;
+
 }
 
 .srchdiv img {
-    height: 800px;
+    height: 100%;
     width: 100%;
 
 
